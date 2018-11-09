@@ -1,0 +1,8 @@
+/home/vitorsubhi/backup/Documentos/Collapser/Client/build/CMakeFiles/install/strip.dir
+/home/vitorsubhi/backup/Documentos/Collapser/Client/build/CMakeFiles/install/local.dir
+/home/vitorsubhi/backup/Documentos/Collapser/Client/build/CMakeFiles/install.dir
+/home/vitorsubhi/backup/Documentos/Collapser/Client/build/CMakeFiles/list_install_components.dir
+/home/vitorsubhi/backup/Documentos/Collapser/Client/build/CMakeFiles/otclient.dir
+/home/vitorsubhi/backup/Documentos/Collapser/Client/build/CMakeFiles/run.dir
+/home/vitorsubhi/backup/Documentos/Collapser/Client/build/CMakeFiles/edit_cache.dir
+/home/vitorsubhi/backup/Documentos/Collapser/Client/build/CMakeFiles/rebuild_cache.dir

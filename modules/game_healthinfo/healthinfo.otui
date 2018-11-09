@@ -1,0 +1,38 @@
+HealthBar < ProgressBar
+  id: healthBar
+  background-color: #ff4444
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  margin: 1
+
+ManaBar < ProgressBar
+  id: manaBar
+  background-color: #4444ff
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  margin: 1
+  margin-top: 3
+
+ExperienceBar < ProgressBar
+  id: experienceBar
+  background-color: #B6E866
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  margin: 1
+  margin-top: 3
+
+MiniWindow
+  icon: /images/topbuttons/healthinfo
+  id: healthInfoWindow
+  !text: tr('Health Info')
+  height: 80
+  @onClose: modules.game_healthinfo.onMiniWindowClose()
+  &save: true
+
+  MiniWindowContents
+    HealthBar
+    ManaBar
+    ExperienceBar
